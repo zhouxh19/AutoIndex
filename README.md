@@ -5,6 +5,8 @@ First, some candidate indexes are generated based on query syntax and database
 statistics. Then the optimal index set is determined by estimating the cost and
 benefit of it for the workload.
 
+Origin Url: gitee.com/opengauss/openGauss-server/tree/master/src/gausskernel/dbmind/tools/components/index_advisor/
+
 ## Usage
 
     python index_advisor_workload.py [p PORT] [d DATABASE] [f FILE] [--h HOST] [-U USERNAME] 
@@ -23,3 +25,13 @@ benefit of it for the workload.
 ## Dependencies
 
     python3.x
+
+## Citing AutoIndex
+
+```bibTeX
+@inproceedings{autoindex2022,
+	author    = {Xuanhe Zhou and Luyang Liu and Wenbo Li and Lianyuan Jin and Shifu Li and Tianqing Wang and Jianhua Feng},
+	title     = {AutoIndex: An Incremental Index Management System for Dynamic Workloads},
+	booktitle = {ICDE},
+	year      = {2022}}
+```
