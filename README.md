@@ -7,7 +7,7 @@ benefit of it for the workload.
 
 Origin Url: gitee.com/opengauss/openGauss-server/tree/master/src/gausskernel/dbmind/tools/components/index_advisor/
 
-![alt text](https://github.com/zhouxh19/autoindex/tree/main/figures/arch.jpg?raw=true)
+![alt text](./figures/arch.jpg?raw=true)
 
 ## Usage
 
