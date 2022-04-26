@@ -5,7 +5,10 @@ First, some candidate indexes are generated based on query syntax and database
 statistics. Then the optimal index set is determined by estimating the cost and
 benefit of it for the workload.
 
-Origin Url: gitee.com/opengauss/openGauss-server/tree/master/src/gausskernel/dbmind/tools/components/index_advisor/
+
+Documents Link: https://opengauss.org/en/docs/3.0.0/docs/Developerguide/workload-level-index-recommendation.html
+
+Origin Repository Link: gitee.com/opengauss/openGauss-server/tree/master/src/gausskernel/dbmind/tools/components/index_advisor/
 
 ![alt text](./figures/arch.jpg?raw=true)
 
