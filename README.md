@@ -6,7 +6,7 @@ statistics. Then the optimal index set is determined by estimating the cost and
 benefit of it for the workload.
 
 
-Documents Link: https://opengauss.org/en/docs/3.0.0/docs/Developerguide/workload-level-index-recommendation.html
+Document Link: https://opengauss.org/en/docs/3.0.0/docs/Developerguide/workload-level-index-recommendation.html
 
 Origin Repository Link: gitee.com/opengauss/openGauss-server/tree/master/src/gausskernel/dbmind/tools/components/index_advisor/
 
