@@ -6,30 +6,12 @@ statistics. Then the optimal index set is determined by estimating the cost and
 benefit of it for the workload.
 
 
-Document Link: https://opengauss.org/en/docs/3.0.0/docs/Developerguide/workload-level-index-recommendation.html
+Origin Repo Link: https://gitee.com/opengauss/openGauss-DBMind/tree/master/dbmind/components/index_advisor 
 
-Origin Repository Link: gitee.com/opengauss/openGauss-server/tree/master/src/gausskernel/dbmind/tools/components/index_advisor/
+Document Link: https://docs.opengauss.org/en/docs/3.1.1/docs/Developerguide/index-advisor-index-recommendation.html
+
 
 ![alt text](./figures/arch.jpg?raw=true)
-
-## Usage
-
-    python index_advisor_workload.py [p PORT] [d DATABASE] [f FILE] [--h HOST] [-U USERNAME] 
-    [-W PASSWORD] [--schema SCHEMA] [--max_index_num MAX_INDEX_NUM] [--max_index_storage MAX_INDEX_STORAGE] 
-    [--multi_iter_mode] [--multi_node] [--json] [--driver] [--show_detail]
-
-# Extract_log
-
-**extract_log**  is a tool for extracting business data from pg_log.
-
-## Usage
-
-    python extract_log.py [l LOG_DIRECTORY] [f OUTPUT_FILE] [-d DATABASE] [-U USERNAME] [--start_time]
-    [--sql_amount] [--statement] [--json]
-
-## Dependencies
-
-    python3.x
 
 ## Citing AutoIndex
 
