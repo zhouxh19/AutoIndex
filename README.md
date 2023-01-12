@@ -6,7 +6,7 @@ statistics. Then the optimal index set is determined by estimating the cost and
 benefit of it for the workload.
 
 
-Origin Repo Link: https://gitee.com/opengauss/openGauss-DBMind/tree/master/dbmind/components/index_advisor 
+Origin Repo Link (check the update-to-date functions): https://gitee.com/opengauss/openGauss-DBMind/tree/master/dbmind/components/index_advisor 
 
 Document Link: https://docs.opengauss.org/en/docs/3.1.1/docs/Developerguide/index-advisor-index-recommendation.html
 
